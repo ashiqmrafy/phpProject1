@@ -12,6 +12,7 @@
   </tr>
     <?php
     session_start();
+    
     require("mysqli_connect.php");
     $q = "SELECT * FROM BookInventry";
     $r = mysqli_query($dbc, $q);
